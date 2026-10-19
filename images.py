@@ -137,8 +137,11 @@ def _local(tag):
 
 def sanitize_svg(source, label):
     """Rebuild an SVG from allowlisted parts. Returns safe markup or None."""
-    if not source or len(source) > MAX_SVG_CHARS or "<!" in source:
-        return None  # no doctype, entities, or comments-with-tricks
+    if not source:
+        return None
+    source = re.sub(r"<!--.*?-->", "", source, flags=re.S)  # drawing notes are harmless; drop them
+    if len(source) > MAX_SVG_CHARS or "<!" in source:
+        return None  # anything else starting "<!" (doctype, entities, CDATA) is refused
     start, end = source.find("<svg"), source.rfind("</svg>")
     if start == -1 or end == -1:
         return None

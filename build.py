@@ -10,7 +10,7 @@ import sys
 from datetime import date
 from pathlib import Path
 
-from content import CONFIG, ROOT, SECTIONS, load_days
+from content import CONFIG, LIMITS, ROOT, SECTIONS, clean_text, load_days
 from images import sanitize_svg
 
 SITE = ROOT / "site"
@@ -66,6 +66,7 @@ def render_figure(story, root):
 
 
 def render_story(story, day_iso, n, kind, root, lead=False):
+    story = {**story, **{f: clean_text(story.get(f, ""), lim) for f, lim in LIMITS.items()}}
     sid = story_id(day_iso, n)
     labels = ("The claim", "What the evidence says") if kind == "fringe" else ("What we thought", "What we're finding")
     badge = re.sub(r"[^a-z]+", "-", story["status"].lower()).strip("-")

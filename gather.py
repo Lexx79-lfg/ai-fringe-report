@@ -52,7 +52,7 @@ def ask_for_stories(client, section, recent_titles, today):
 def draw_plate(client, story):
     response = client.messages.create(
         model=MODEL,
-        max_tokens=3000,
+        max_tokens=6000,
         system=PLATE_PROMPT,
         messages=[{"role": "user", "content": f"Title: {story['title']}\nSummary: {story['summary']}"}],
     )
@@ -73,6 +73,8 @@ def add_picture(client, story, is_lead):
             plate = draw_plate(client, story)
             if plate:
                 story["plate"] = plate
+            else:
+                print("  plate rejected by the sanitizer or cut off")
         except Exception as err:
             print(f"  plate skipped: {err}")
 
