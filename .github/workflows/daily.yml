@@ -1,0 +1,66 @@
+name: Daily AI Fringe Report
+
+on:
+  schedule:
+    - cron: "0 14 * * *"   # 14:00 UTC = 7 AM Pacific in summer, 6 AM in winter
+  workflow_dispatch:        # lets you run it by hand from the Actions tab
+
+# Nothing gets permissions unless a job asks for them below.
+permissions: {}
+
+concurrency:
+  group: fringe-report
+  cancel-in-progress: false
+
+jobs:
+  gather:
+    # Only this job can write to the repo (to save the day's JSON), and only it sees the API key.
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6.1.0
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6.3.0
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Gather today's stories
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python gather.py
+      - name: Save today's report to the archive
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --staged --quiet && echo "Nothing new to save." && exit 0
+          git commit -m "Report for $(date -u +%F)"
+          git pull --rebase
+          git push
+
+  deploy:
+    # Builds the site with plain Python (no API key, no third-party packages) and publishes it.
+    needs: gather
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6.1.0
+        with:
+          ref: main          # pick up the JSON the gather job just committed
+          persist-credentials: false
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6.3.0
+        with:
+          python-version: "3.12"
+      - run: python build.py
+      - uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6.0.0
+      - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
+        with:
+          path: site
+      - id: deployment
+        uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1
