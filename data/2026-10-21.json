@@ -1,0 +1,110 @@
+{
+  "date": "2026-10-21",
+  "generated_at": "2026-10-21T18:27:57+00:00",
+  "model": "claude-sonnet-5-5",
+  "failed_sections": [
+    "beyond"
+  ],
+  "sections": {
+    "machine_minds": [
+      {
+        "title": "AI agents invent their own shared language to talk about complex data",
+        "summary": "Researchers at the Vrije Universiteit Brussel's AI Lab and the University of Namur ran a large-scale study of autonomous AI systems. The systems developed a functional, shared language of their own without being given one. The listing does not name the journal or describe the methods in detail.",
+        "thought": "Communication between AI systems needs a human-designed protocol or human language to work.",
+        "finding": "In a large-scale study, autonomous agents spontaneously developed a functional shared language for describing complex data.",
+        "why": "It gives researchers a testable model for how communication systems emerge, and it bears on how multi-agent AI might be built and monitored.",
+        "source": "Tech Xplore",
+        "url": "https://techxplore.com/machine-learning-ai-news/",
+        "status": "Reported",
+        "published": "2026-10-15",
+        "plate": "<svg class=\"plate-svg\" viewBox=\"0 0 400 300\" role=\"img\" aria-label=\"Ink drawing for: AI agents invent their own shared language to talk about complex data\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"40\" y=\"110\" width=\"70\" height=\"60\" rx=\"8\"></rect><circle cx=\"62\" cy=\"135\" r=\"6\"></circle><circle cx=\"88\" cy=\"135\" r=\"6\"></circle><line x1=\"60\" y1=\"155\" x2=\"90\" y2=\"155\"></line><line x1=\"75\" y1=\"110\" x2=\"75\" y2=\"95\"></line><circle cx=\"75\" cy=\"91\" r=\"4\"></circle><line x1=\"55\" y1=\"170\" x2=\"55\" y2=\"190\"></line><line x1=\"95\" y1=\"170\" x2=\"95\" y2=\"190\"></line><rect x=\"290\" y=\"110\" width=\"70\" height=\"60\" rx=\"8\"></rect><circle cx=\"312\" cy=\"135\" r=\"6\"></circle><circle cx=\"338\" cy=\"135\" r=\"6\"></circle><line x1=\"310\" y1=\"155\" x2=\"340\" y2=\"155\"></line><line x1=\"325\" y1=\"110\" x2=\"325\" y2=\"95\"></line><circle cx=\"325\" cy=\"91\" r=\"4\"></circle><line x1=\"305\" y1=\"170\" x2=\"305\" y2=\"190\"></line><line x1=\"345\" y1=\"170\" x2=\"345\" y2=\"190\"></line><circle cx=\"150\" cy=\"40\" r=\"3\" fill=\"currentColor\"></circle><circle cx=\"175\" cy=\"55\" r=\"3\" fill=\"currentColor\"></circle><circle cx=\"200\" cy=\"35\" r=\"3\" fill=\"currentColor\"></circle><circle cx=\"225\" cy=\"52\" r=\"3\" fill=\"currentColor\"></circle><circle cx=\"250\" cy=\"38\" r=\"3\" fill=\"currentColor\"></circle><polyline points=\"150,40 175,55 200,35 225,52 250,38\"></polyline><line x1=\"175\" y1=\"55\" x2=\"225\" y2=\"52\" stroke-dasharray=\"3 4\"></line><line x1=\"100\" y1=\"88\" x2=\"150\" y2=\"45\" stroke-dasharray=\"3 4\"></line><line x1=\"300\" y1=\"88\" x2=\"250\" y2=\"42\" stroke-dasharray=\"3 4\"></line><path d=\"M125 125 Q140 115 155 125\"></path><path d=\"M125 140 Q140 130 155 140\"></path><polygon points=\"175,115 190,115 182,128\"></polygon><circle cx=\"205\" cy=\"122\" r=\"7\"></circle><rect x=\"222\" y=\"115\" width=\"14\" height=\"14\"></rect><path d=\"M248 130 L255 114 L262 130 Z\"></path><path d=\"M170 160 L185 150 L200 160 L215 150 L230 160\"></path><path d=\"M245 150 Q255 165 265 150\"></path><line x1=\"120\" y1=\"165\" x2=\"165\" y2=\"165\"></line><polyline points=\"160,160 166,165 160,170\"></polyline><line x1=\"280\" y1=\"175\" x2=\"240\" y2=\"175\"></line><polyline points=\"246,170 240,175 246,180\"></polyline><line x1=\"30\" y1=\"190\" x2=\"370\" y2=\"190\"></line></g><text x=\"200\" y=\"230\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">emergent shared symbols</text></svg>"
+      },
+      {
+        "title": "Penn team publishes AI framework for measuring news media bias at scale",
+        "summary": "A University of Pennsylvania team led by Duncan Watts has published the scientific framework behind its Media Bias Detector in Science Advances. The release includes a data set of more than 140,000 articles from the 2024 US presidential election year. The summary available does not report how accurate the tool is.",
+        "thought": "Bias across the whole news ecosystem was too large and subjective to measure systematically.",
+        "finding": "An AI-based framework, released with a public data set of 140,000-plus articles, now lets researchers measure media bias across a full election year.",
+        "why": "Open data and methods let outside researchers check, challenge and build on claims about how news coverage shapes public understanding.",
+        "source": "University of Pennsylvania Almanac (Science Advances study)",
+        "url": "https://almanac.upenn.edu/articles/ai-helps-detect-media-bias-informing-voters-and-news-consumers",
+        "status": "Peer-reviewed",
+        "published": "2026-10-20"
+      },
+      {
+        "title": "Beijing conference on 'AI Scientists' launches an international research community",
+        "summary": "The Second International Conference on AI Scientists opened in Beijing on October 17, timed to the 70th anniversary of the Dartmouth Conference that founded AI as a field. Organizers announced a joint research center aimed at applying AI to major global scientific problems. They also announced a platform linking early-career researchers with Nobel and Turing laureates. These are plans, not results, and no specific discoveries were reported.",
+        "thought": "Scientific discovery is an enterprise driven mainly by human researchers, with AI as a side tool.",
+        "finding": "Major research institutions are now organizing whole conferences and research centers around AI systems that take part in discovery.",
+        "why": "It shows how quickly AI-assisted science is turning into institutional infrastructure, even though the results from that infrastructure are still to come.",
+        "source": "Science and Technology Daily (China)",
+        "url": "https://www.stdaily.com/web/English/2026-10/21/content_598671.html",
+        "status": "Official announcement",
+        "published": "2026-10-17"
+      }
+    ],
+    "cosmos": [
+      {
+        "title": "Astronomers identify the first known white dwarf that would look green to the human eye",
+        "summary": "A University of Warwick team reports that white dwarfs, the dense leftover cores of Sun-like stars, glow in a range of colors including green, pink and purple. One star stands out as the first known to look genuinely green to a human observer. The work is in RAS Techniques and Instruments. It draws on existing survey data, and an outside astrophysicist told CNN it may not change how white dwarfs are understood.",
+        "thought": "White dwarfs were generally pictured as uniformly pale white or blue-white embers, with little variety in the colors they would show to the eye.",
+        "finding": "A re-analysis of existing data shows white dwarfs spanning green, pink and purple hues, including one star that would appear truly green.",
+        "why": "Color maps of white dwarfs reflect their atmospheric makeup, so upcoming spectroscopic surveys could use them to sort these stars and may turn up more green ones.",
+        "source": "CNN (reporting on a University of Warwick study in RAS Techniques and Instruments)",
+        "url": "https://edition.cnn.com/2026/10/16/science/green-star-discovery-scli-intl",
+        "status": "Peer-reviewed",
+        "published": "2026-10-16",
+        "plate": "<svg class=\"plate-svg\" viewBox=\"0 0 400 300\" role=\"img\" aria-label=\"Ink drawing for: Astronomers identify the first known white dwarf that would look green to the human eye\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><g stroke=\"currentColor\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"200\" cy=\"130\" r=\"48\" stroke-width=\"2.5\"></circle><circle cx=\"200\" cy=\"130\" r=\"38\" stroke-width=\"1\" stroke-dasharray=\"3 4\"></circle><path d=\"M170 110 Q180 92 204 90\" stroke-width=\"1.5\"></path><path d=\"M222 150 L236 138\" stroke-width=\"1\"></path><path d=\"M216 160 L240 142\" stroke-width=\"1\"></path><path d=\"M208 168 L238 150\" stroke-width=\"1\"></path><path d=\"M198 174 L230 158\" stroke-width=\"1\"></path><path d=\"M200 66 L200 52\" stroke-width=\"1\"></path><path d=\"M200 194 L200 208\" stroke-width=\"1\"></path><path d=\"M136 130 L122 130\" stroke-width=\"1\"></path><path d=\"M264 130 L278 130\" stroke-width=\"1\"></path><path d=\"M155 85 L146 75\" stroke-width=\"1\"></path><path d=\"M245 85 L254 75\" stroke-width=\"1\"></path><path d=\"M155 175 L146 185\" stroke-width=\"1\"></path><path d=\"M245 175 L254 185\" stroke-width=\"1\"></path><circle cx=\"60\" cy=\"60\" r=\"14\" stroke-width=\"1.5\"></circle><circle cx=\"340\" cy=\"60\" r=\"14\" stroke-width=\"1.5\"></circle><circle cx=\"60\" cy=\"200\" r=\"14\" stroke-width=\"1.5\"></circle><circle cx=\"340\" cy=\"200\" r=\"14\" stroke-width=\"1.5\"></circle><path d=\"M54 56 Q58 52 63 53\" stroke-width=\"1\"></path><path d=\"M334 56 Q338 52 343 53\" stroke-width=\"1\"></path><path d=\"M54 196 Q58 192 63 193\" stroke-width=\"1\"></path><path d=\"M334 196 Q338 192 343 193\" stroke-width=\"1\"></path><path d=\"M74 66 L150 104\" stroke-width=\"0.8\" stroke-dasharray=\"2 5\"></path><path d=\"M326 66 L250 104\" stroke-width=\"0.8\" stroke-dasharray=\"2 5\"></path><path d=\"M74 194 L152 160\" stroke-width=\"0.8\" stroke-dasharray=\"2 5\"></path><path d=\"M326 194 L248 160\" stroke-width=\"0.8\" stroke-dasharray=\"2 5\"></path><rect x=\"90\" y=\"242\" width=\"220\" height=\"16\" stroke-width=\"1.5\"></rect><path d=\"M145 242 L145 258M200 242 L200 258M255 242 L255 258\" stroke-width=\"1\"></path><path d=\"M200 236 L200 228\" stroke-width=\"2\"></path><path d=\"M195 232 L200 226 L205 232\" stroke-width=\"1.5\"></path></g><g fill=\"currentColor\" font-size=\"12\" text-anchor=\"middle\"><text x=\"200\" y=\"280\">white dwarf colour range</text><text x=\"200\" y=\"222\" font-size=\"11\">green</text></g></svg>"
+      }
+    ],
+    "deep_past": [
+      {
+        "title": "Hand bones from a Spanish cave give Navarre its first Neanderthal",
+        "summary": "Six bone fragments from Abauntz Cave in northern Spain belong to a male Neanderthal who lived about 46,000 years ago. Four are right-hand bones. Protein analysis showed two more fragments were human, and ancient DNA identified the species and sex. Some bones carry carnivore bite marks, but the announcement does not say which animal left them or how the man died. It also cites no published paper yet, and dates quoted range from 44,000 to 49,000 years.",
+        "thought": "Neanderthals in the western Pyrenees were known only from stone tools and butchered animal bones, with no human bones to confirm who made them.",
+        "finding": "Direct radiocarbon dates, preserved DNA and protein analysis now tie a named Neanderthal individual to the region, only a few thousand years before the species vanished.",
+        "why": "A dated Neanderthal genome from this corridor between Iberia and the rest of Europe could show how the last Neanderthal groups were related and whether they moved between regions.",
+        "source": "Archaeology Magazine, reporting the CENIEH/IPHES announcement",
+        "url": "https://archaeologymag.com/2026/10/neanderthal-hand-fossils-from-spain-preserved-dna/",
+        "status": "Official announcement",
+        "published": "2026-10-19",
+        "plate": "<svg class=\"plate-svg\" viewBox=\"0 0 400 300\" role=\"img\" aria-label=\"Ink drawing for: Hand bones from a Spanish cave give Navarre its first Neanderthal\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><rect x=\"164\" y=\"150\" width=\"11\" height=\"62\" rx=\"5\"></rect><rect x=\"183\" y=\"145\" width=\"12\" height=\"66\" rx=\"5\"></rect><rect x=\"203\" y=\"150\" width=\"11\" height=\"62\" rx=\"5\"></rect><rect x=\"223\" y=\"160\" width=\"10\" height=\"54\" rx=\"5\"></rect><rect x=\"165\" y=\"118\" width=\"9\" height=\"28\" rx=\"4\"></rect><rect x=\"166\" y=\"96\" width=\"8\" height=\"18\" rx=\"4\"></rect><rect x=\"166\" y=\"80\" width=\"7\" height=\"13\" rx=\"3\"></rect><rect x=\"184\" y=\"110\" width=\"10\" height=\"31\" rx=\"4\"></rect><rect x=\"185\" y=\"86\" width=\"9\" height=\"20\" rx=\"4\"></rect><rect x=\"186\" y=\"70\" width=\"7\" height=\"13\" rx=\"3\"></rect><rect x=\"204\" y=\"116\" width=\"9\" height=\"30\" rx=\"4\"></rect><rect x=\"205\" y=\"94\" width=\"8\" height=\"18\" rx=\"4\"></rect><rect x=\"206\" y=\"78\" width=\"7\" height=\"13\" rx=\"3\"></rect><rect x=\"224\" y=\"130\" width=\"8\" height=\"26\" rx=\"4\"></rect><rect x=\"225\" y=\"112\" width=\"7\" height=\"14\" rx=\"3\"></rect><rect x=\"225\" y=\"98\" width=\"6\" height=\"11\" rx=\"3\"></rect><rect x=\"0\" y=\"0\" width=\"11\" height=\"48\" rx=\"5\" transform=\"translate(150 218) rotate(35) translate(-5 -48)\"></rect><rect x=\"0\" y=\"0\" width=\"10\" height=\"26\" rx=\"4\" transform=\"translate(130 182) rotate(30) translate(-5 -26)\"></rect><rect x=\"0\" y=\"0\" width=\"8\" height=\"18\" rx=\"4\" transform=\"translate(118 158) rotate(25) translate(-4 -18)\"></rect><ellipse cx=\"172\" cy=\"226\" rx=\"9\" ry=\"8\"></ellipse><ellipse cx=\"191\" cy=\"227\" rx=\"9\" ry=\"8\"></ellipse><ellipse cx=\"210\" cy=\"227\" rx=\"9\" ry=\"8\"></ellipse><ellipse cx=\"228\" cy=\"226\" rx=\"8\" ry=\"8\"></ellipse><ellipse cx=\"160\" cy=\"241\" rx=\"9\" ry=\"7\"></ellipse><ellipse cx=\"181\" cy=\"245\" rx=\"10\" ry=\"8\"></ellipse><ellipse cx=\"203\" cy=\"246\" rx=\"10\" ry=\"8\"></ellipse><ellipse cx=\"223\" cy=\"243\" rx=\"8\" ry=\"7\"></ellipse><path d=\"M148 262 Q170 258 192 262 L190 290 L150 290 Z\"></path><path d=\"M208 260 Q222 257 236 261 L235 290 L208 290 Z\"></path><polyline points=\"214,170 208,173 214,176\"></polyline><polyline points=\"214,184 208,187 214,190\"></polyline><line x1=\"215\" y1=\"180\" x2=\"275\" y2=\"165\"></line><text x=\"268\" y=\"160\" font-size=\"12\" stroke=\"none\" fill=\"currentColor\">bite marks</text><text x=\"20\" y=\"30\" font-size=\"14\" stroke=\"none\" fill=\"currentColor\">Right hand, dorsal view</text></svg>"
+      },
+      {
+        "title": "DNA ties Easter Island and Hawaii to the same medieval Pacific seafarers",
+        "summary": "A genetic study in the journal Science reports that the same group of Polynesian voyagers appears to have settled both Hawaii and Easter Island, which lie roughly 7,000 kilometres apart. Researchers also found that repeated settlement of new islands concentrated rare disease-linked gene variants, including ones tied to kidney disease and blindness, in French Polynesia. The coverage seen here does not give sample sizes or exact dates for the voyages.",
+        "thought": "Hawaii and Easter Island, separated by thousands of kilometres of open ocean, were not known to share a common founding group of settlers.",
+        "finding": "Genetic links indicate the same medieval Polynesian seafaring lineage reached both islands, pointing to some of the longest deliberate ocean voyages in human history.",
+        "why": "It shows how far early Pacific navigators could travel and how repeated island founding left lasting marks on the health genetics of Polynesian populations.",
+        "source": "Science, reported by TimesLIVE",
+        "url": "https://www.timeslive.co.za/news/world/2026-10-20-ancient-dna-links-easter-island-seafarers-to-hawaii/",
+        "status": "Peer-reviewed",
+        "published": "2026-10-20"
+      },
+      {
+        "title": "Fossil bite marks suggest small raptors scavenged a fallen tyrannosaur",
+        "summary": "A newly described fossil from Alberta, Canada, shows bite marks that suggest much smaller predatory dinosaurs fed on a dead tyrannosaur. The finding points to the carcass of a top predator as a food source for smaller meat-eaters. The listing seen here does not name the journal or give details of the marks, so the strength of the evidence is unclear.",
+        "thought": "Tyrannosaurs sat at the top of the food chain, with little evidence of how smaller predators interacted with their carcasses.",
+        "finding": "Bite marks on an Alberta fossil indicate that small raptor-type dinosaurs likely scavenged a dead tyrannosaur, though the evidence is inferred from marks rather than direct observation.",
+        "why": "It adds a rare behavioural detail about how dinosaur ecosystems recycled the bodies of their largest predators.",
+        "source": "Sci.News",
+        "url": "https://www.sci.news/news/paleontology",
+        "status": "Reported",
+        "published": "2026-10-14"
+      }
+    ],
+    "reality": [
+      {
+        "title": "A 'forgotten' heavy neutrino may help explain why matter beat antimatter",
+        "summary": "Two physicists, at the University of Southampton and IIT Kanpur, modeled a very heavy, barely interacting particle called a right-handed neutrino. They found that its slow decay could have changed how fast the early universe expanded, and with it the conditions under which matter and antimatter formed. That shift could have tipped the balance slightly toward matter. This is a theoretical model, and no such particle has been detected. The coverage does not name the journal.",
+        "thought": "The heaviest hypothetical right-handed neutrino was too feeble and too hidden to matter for why the universe is made of matter rather than antimatter.",
+        "finding": "Models suggest this overlooked particle could have reshaped the early universe's expansion and nudged particle interactions toward a small surplus of matter, though the particle remains hypothetical.",
+        "why": "It offers a possible route to explaining why anything exists at all, and the authors say the idea could be tested in future experiments.",
+        "source": "404 Media",
+        "url": "https://www.404media.co/scientists-discover-a-strange-particle-explains-the-origin-of-reality/",
+        "status": "Reported",
+        "published": ""
+      }
+    ],
+    "beyond": []
+  }
+}
